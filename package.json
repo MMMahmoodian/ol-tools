@@ -2,10 +2,13 @@
   "name": "ol-tools",
   "version": "1.0.0",
   "description": "A package containing some Open Layers tools.",
-  "main": "index.js",
+  "main": "src/ol-tools/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "ol": "^6.5.0"
+  }
 }
